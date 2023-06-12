@@ -8,123 +8,7 @@
   <title>작전고등학교 진로진학</title>
   <script src="https://kit.fontawesome.com/d80feeff6c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="media.css">
-  <style>
-      *{
-          margin:0;
-          padding:0;
-          box-sizing: border-box;
-      }
-      a, a:link, a:visited{
-          color: inherit;
-          text-decoration: none;
-      }
-      li{
-          list-style: none;
-      }
-      .container{
-          width: 1140px;
-          margin:0 auto;
-      }
-      header{
-          position: fixed;
-          color: white;
-          top: 0;
-          z-index: 1;
-          width:100%;
-          padding: 1rem;
-      }
-      header .container{
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          width: 100%;
-      }
-      header nav ul{
-          display: flex;
-      }
-      header nav ul li{
-          padding: 10px;
-        
-      }
-      header button{
-          background: transparent;
-          border: 0;
-          cursor: pointer;
-          color: white;
-      }
-      header h1 button{
-          font-size: 1.6rem;
-          font-weight: bold;
-      }
-      header nav ul li button{
-          font-size: rem;
-          color: white;
-      }
-      main{
-          width: 100%;
-          height: 100vh;
-          color: white;
-          background: linear-gradient(rgba(33,111,171,0.4), rgba(33,111,171,0.4)), url('pond.gif') center center;
-          background-size: cover;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
-      }
-      main h4{
-          font-size:2rem;
-      }
-      main h2{
-          font-size: 3.5rem;
-          margin: 2rem 0;
-          letter-spacing: 3px;
-          letter-spacing: 3px;
-          font-family: "Varela Round", sans-serif;
-      }
-      main p{
-          max-width: 500px;
-          margin: 0 auto;
-          font-size: 1.25rem;
-      }
-      main button{
-          background-color: transparent;
-          border: 3px solid white;
-          border-radius: 20px;
-          /* 가로 32px 세로 16px*/
-          width: 10rem;
-          height: 4rem;
-          margin-top: 3rem;
-          color: white;
-          font-weight: bold;
-          cursor: pointer;
-      }
-      main h2 span::after{
-          content: "";
-          height: 40px;
-          width:3px;
-          background-color: #fff;
-          display: inline-block;
-          animation: blink .7s ease-in-out infinite;
-      }
-      @keyframes blink{
-          0%{
-              opacity: 1;
-          }
-          100%{
-              opacity: 0;
-          }
-      }
-      @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-      .name p{
-          font-size: 8px;
-          color: white
-      }
-      main button.school:hover{
-          color: white;
-          background-color: dodgerblue;
-          background-position: center;
-          background-size: cover;
-  </style>
+  <link rel="stylesheet" href="important.css">
 </head>
 
 <body>
@@ -160,9 +44,6 @@
             <button class="school" onclick="location.href='http://ipsi.sejong.ac.kr/sub_page/sub5/0107_view.asp?tab1=6&B_CATEGORY=0&B_CODE=BOARD_1455878015&IDX=745'">세종대학교<br><strong>온라인 모의논술</strong></button>
         </div>
     </main>
-    <div class="name" style="position: absolute;right: 6px;bottom: 6px;">
-        <p>만든이<br>30523 차현진<br>30502 권영준<br>30402 권재하<br>30711 민우혁</p>
-    </div>
 </body>
 
 </html>
